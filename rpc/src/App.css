@@ -552,6 +552,7 @@ path {
   /* font-family: "Oswald", sans-serif; */
   /* font-family: 'Babylonica', cursive; */
   font-family: serif;
+  font-size: 16px;
 }
 
 
@@ -623,8 +624,18 @@ path {
 
 /* Contact Page */
 
+.contact-page {
+  height: 75vh;
+}
+
+@media screen and (max-width: 400px) {
+  .contact-page {
+    height: 95vh;
+  }
+}
+
 .contact-container{
-  height: 101vh;
+  /* height: 101vh; */
 }
 
 .contact-me-container {
@@ -763,12 +774,26 @@ li {
   margin-top: 10px;
 }
 
+.pizza{
+  /* height: 100vh; */
+
+}
+
 .resume-page {
-  height: 80vh;
+  height: 65vh;
   width: 75vw;
   /* background-color: rgb(0, 0, 0, 0.35); */
-  margin-bottom: 0px;
+  /* margin-bottom: 70px; */
 }
+
+@media screen and (max-width: 400px) {
+  .resume-page {
+    height: 80vh;
+    margin-bottom: 50px;
+  }
+}
+
+
 
 .resume-ul {
   list-style: none;

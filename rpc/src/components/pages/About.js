@@ -1,11 +1,11 @@
 import React from "react";
 
 import image7 from "./image7.png";
-import image8 from "./image8.png";
-import image9 from "./image9.png";
-import image10 from "./image10.png";
-import cloud1 from "./cloud1.png";
-import cloud2 from "./cloud2.png";
+// import image8 from "./image8.png";
+// import image9 from "./image9.png";
+// import image10 from "./image10.png";
+// import cloud1 from "./cloud1.png";
+// import cloud2 from "./cloud2.png";
 
 const styles = {
   headingStyle: {
@@ -21,8 +21,8 @@ export default function About() {
         
         <img className="image-one" src={image7} alt="website owner" />
         {/* <img className="cloud1"src={cloud1}/> */}
-        <img className="cloud1" src={cloud1} alt="first cloud" />
-        <img className="cloud2" src={cloud2} alt="second cloud" />
+        {/* <img className="cloud1" src={cloud1} alt="first cloud" /> */}
+        {/* <img className="cloud2" src={cloud2} alt="second cloud" /> */}
         {/* <img className="cgotts1"src={cgotts1logo}/> */}
 
         <div>

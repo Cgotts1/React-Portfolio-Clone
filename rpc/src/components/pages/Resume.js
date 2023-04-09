@@ -6,7 +6,7 @@ import cv from "./Tech-CV.pdf";
 
 export default function Resume() {
   return (
-    <div>
+    <div className="pizza">
       <div className="resume-container">
         <h1>My Skills</h1>
       </div>
