@@ -150,6 +150,11 @@
     text-align: center;
     padding-right: 0px;
   }
+  .nav-tabs {
+    display: flex;
+    /* justify-content: flex-end; */
+    justify-content: space-around;
+  }
 }
 
 .header {
@@ -165,9 +170,9 @@ ul {
 
 .image-one {
   margin-top: 10px;
+  margin-top: 10px;
   height: 600px;
   width: 300px;
-  width:18%;
 }
 
 .csun-logo,
@@ -231,7 +236,6 @@ ul {
   margin-left: 10px;
   font-size: 22px;
   letter-spacing: 2px;
-  font-family: "Cinzel", serif;
   font-family: "Oswald", sans-serif;
 }
 
@@ -529,7 +533,45 @@ path {
   /* opacity: 0; */
   pointer-events: none;
   /* z-index: 0; */
+  /* font-family: "Cinzel", serif; */
+  /* font-family: "Oswald", sans-serif; */
+  /* font-family: 'Babylonica', cursive; */
 }
+
+
+
+
+.slide-down {
+  position: absolute;
+  z-index: 3;
+  margin-top: 140px;
+  margin-left: 10px;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 265px;
+  transition: 900ms ease-in-out;
+  overflow: hidden;
+  border: solid black;
+  border-left: none;
+  border-right: none;
+  pointer-events: none;
+  opacity: 0.95;
+  font-weight: 700;
+  height: 0;
+  pointer-events: none;
+  
+}
+.slide-down.show {
+  height: auto;
+  transition: 5s;
+}
+
+
+
+
+
+
 
 .project-summary {
   position: absolute;
@@ -539,7 +581,6 @@ path {
   padding: 2px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-weight: 700;
   width: 265px;
   transition: 200ms;
   /* border-bottom-right-radius: 17px; */
@@ -550,6 +591,10 @@ path {
   opacity: 0.95;
   /* box-shadow: 6px 5px 5px rgb(34, 33, 33); */
   /* box-shadow: 6px 5px 5px rgb(222, 222, 222); */
+  /* font-family: "Cinzel", serif; */
+  /* font-family: "Oswald", sans-serif; */
+  font-weight: 700;
+  /* font-family: 'Babylonica', cursive; */
 }
 
 .overlay-logo:active {
@@ -560,6 +605,10 @@ path {
 }
 
 /* Contact Page */
+
+.contact-container{
+  height: 101vh;
+}
 
 .contact-me-container {
   display: flex;
@@ -572,9 +621,11 @@ path {
 .my-email-container {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.85);
   color: white;
-  padding: 0px 20px;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+  border-bottom: solid black;
 }
 
 a,
@@ -588,12 +639,15 @@ a,
   color: rgb(124, 168, 255);
 }
 
+.my-email{
+  text-align: center;
+}
+
 .contact-page {
   display: flex;
-  background-color: rgb(0, 0, 0, 0.35);
+  /* background-color: rgb(0, 0, 0, 0.35); */
   justify-content: center;
   /* align-items: center; */
-  /* margin-top: 30px; */
 }
 
 .contact-form,
@@ -673,10 +727,15 @@ li {
 .cv-container {
   display: flex;
   justify-content: center;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.85);
   border: solid black;
   color: rgb(255, 255, 255);
   padding: 0px 10px;
+  border-top: none;
+}
+
+.download{
+  border: none;
 }
 
 .frontend-container {
@@ -733,3 +792,12 @@ h4 {
   border-radius: 1px;
 }
 
+.school-logo-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.school-logos{
+  width: 100px;
+  height: 100px;;
+}

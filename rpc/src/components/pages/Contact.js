@@ -71,13 +71,13 @@ export default function Contact() {
 
   return (
 
-    <div >
+    <div class="contact-container" >
         <div className="contact-me-container">
         <h1>Contact Me</h1>
         </div>
 
         <div className="my-email-container">
-        <h2>My Email: <a class="email-link" href = "mailto: cobi.gottschalk@gmail.com">cobi.gottschalk@gmail.com</a></h2>
+        <h2 className="my-email">My Email: <a class="email-link" href = "mailto: cobi.gottschalk@gmail.com">cobi.gottschalk@gmail.com</a></h2>
         </div>
     <div className="contact-page">
       <div className="contact-form">

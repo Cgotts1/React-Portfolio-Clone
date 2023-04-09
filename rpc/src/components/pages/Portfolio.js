@@ -133,7 +133,7 @@ export default function Portfolio() {
           </svg>
 
           {isVisible1 && <div className="project-summary">A movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
-
+          {/* <div className={`slide-down ${isVisible1 ? "show" : {isVisible1}}`}>A movie search web application that utilizes two APIs to render a movie's information and its respective poster. </div> */}
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 HTML | CSS | JS <br></br>Bootstrap | APIs: OMDB & TMDB</h6>
 
@@ -485,7 +485,7 @@ export default function Portfolio() {
             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
           </svg> 
 
-          {isVisible8 && <div className="project-summary">An application that allows users to create and delete flash cards. Upon returning to the application, the users previusly created cards will populate through use of local storage. <br/> Tutorial by: Web Dev Tutorials <br/>https://youtu.be/wtqbOFYivxw </div>}
+          {isVisible8 && <div className="project-summary">An application that allows users to create and delete flash cards. Upon returning to the application, the users previously created cards will populate through use of local storage. <br/> Tutorial by: Web Dev Tutorials <br/>https://youtu.be/wtqbOFYivxw </div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 <br></br> HTML | CSS | JS</h6>
@@ -632,7 +632,7 @@ export default function Portfolio() {
             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
           </svg> 
 
-          {isVisible11 && <div className="project-summary">A fitness application allowing users to make an account and create a weekly workout routine that tracks their physical activities and time spent exercizing.</div>}
+          {isVisible11 && <div className="project-summary">A fitness application allowing users to make an account and create a weekly workout routine that tracks their physical activities and time spent exercising.</div>}
 
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 HTML | CSS | JS | Chart.js<br></br>Bootstrap | MySQL | Express |HB.js</h6>

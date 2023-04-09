@@ -1,5 +1,8 @@
 import React from "react";
-import cv2 from "./Tech-CV-Copy2.pdf";
+import cv from "./Tech-CV.pdf";
+// import csun from "./image8.png";
+// import ljmu from "./image9.png";
+// import ucsd from "./image10.png";
 
 export default function Resume() {
   return (
@@ -8,12 +11,12 @@ export default function Resume() {
         <h1>My Skills</h1>
       </div>
 
-      <div className="cv-container">
+      <div className="cv-container download">
         <h3>Download CV</h3>
       </div>
 
       <div className="cv-container">
-        <a href={cv2} download title="download">
+        <a href={cv} download title="download">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="50"
@@ -26,6 +29,7 @@ export default function Resume() {
           </svg>
         </a>
       </div>
+      
 
       <div className="proficiency-container">
         <div className="resume-page">
@@ -61,6 +65,11 @@ export default function Resume() {
               <li>GraphQL</li>
             </ul>
           </div>
+          {/* <div className="school-logo-container">
+<img class="school-logos" src={csun}/>
+<img class="school-logos" src={ljmu}/>
+<img class="school-logos" src={ucsd}/>
+</div> */}
         </div>
       </div>
     </div>
