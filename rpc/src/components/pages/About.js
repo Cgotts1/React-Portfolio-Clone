@@ -6,7 +6,6 @@ import image9 from "./image9.png";
 import image10 from "./image10.png";
 import cloud1 from "./cloud1.png";
 import cloud2 from "./cloud2.png";
-// import backgroundVideo from './videofile.mp4'
 
 const styles = {
   headingStyle: {
@@ -18,9 +17,7 @@ export default function About() {
   return (
     <div className="aboutContent">
       <div className="first-section">
-        {/* <video autoPlay loop muted id='video'>
-          <source src={backgroundVideo} type= 'video/mp4'/>
-        </video> */}
+
         
         <img className="image-one" src={image7} alt="website owner" />
         {/* <img className="cloud1"src={cloud1}/> */}
