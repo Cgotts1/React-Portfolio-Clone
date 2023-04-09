@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-Clone/static/css/main.0e4ef01d.css",
-    "main.js": "/React-Portfolio-Clone/static/js/main.c167b98c.js",
+    "main.css": "/React-Portfolio-Clone/static/css/main.db17b766.css",
+    "main.js": "/React-Portfolio-Clone/static/js/main.66ce82a4.js",
     "static/js/787.abc9a4ab.chunk.js": "/React-Portfolio-Clone/static/js/787.abc9a4ab.chunk.js",
     "static/media/videofile.mp4": "/React-Portfolio-Clone/static/media/videofile.c936289a7100b85c1a0d.mp4",
     "static/media/cloud2.png": "/React-Portfolio-Clone/static/media/cloud2.9ae3dbcea588178ff093.png",
@@ -10,16 +10,16 @@
     "static/media/image7.png": "/React-Portfolio-Clone/static/media/image7.62555a0675959045f4e1.png",
     "static/media/image8.png": "/React-Portfolio-Clone/static/media/image8.eaa5d385f52e8a362f19.png",
     "static/media/newcgotts1logo.png": "/React-Portfolio-Clone/static/media/newcgotts1logo.c0512f1ec66b0023c9ea.png",
-    "static/media/Tech-CV-Copy2.pdf": "/React-Portfolio-Clone/static/media/Tech-CV-Copy2.6498e4ed0768c8c17850.pdf",
+    "static/media/Tech-CV.pdf": "/React-Portfolio-Clone/static/media/Tech-CV.46e33a2c3b7dc3efbd4e.pdf",
     "static/media/image13.png": "/React-Portfolio-Clone/static/media/image13.0c9dc86585dba1c55ddd.png",
     "static/media/image9.png": "/React-Portfolio-Clone/static/media/image9.3d67f6c613ff3034baba.png",
     "index.html": "/React-Portfolio-Clone/index.html",
-    "main.0e4ef01d.css.map": "/React-Portfolio-Clone/static/css/main.0e4ef01d.css.map",
-    "main.c167b98c.js.map": "/React-Portfolio-Clone/static/js/main.c167b98c.js.map",
+    "main.db17b766.css.map": "/React-Portfolio-Clone/static/css/main.db17b766.css.map",
+    "main.66ce82a4.js.map": "/React-Portfolio-Clone/static/js/main.66ce82a4.js.map",
     "787.abc9a4ab.chunk.js.map": "/React-Portfolio-Clone/static/js/787.abc9a4ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e4ef01d.css",
-    "static/js/main.c167b98c.js"
+    "static/css/main.db17b766.css",
+    "static/js/main.66ce82a4.js"
   ]
 }
