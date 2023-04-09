@@ -234,7 +234,7 @@ export default function Portfolio() {
           {isVisible3 && <div className="project-summary">A weather dashboard that utilizes Openweathermap's API to retrieve weather information for a five day forecast.</div>}
 
           {/* ---------------------------------------------------------- */}
-          <h6 className="description-and-tech">🛠 HTML | CSS | JS <br></br>Bootstrap | API: Openweathermap</h6>
+          <h6 className="description-and-tech">🛠 HTML | CSS | JS | Bootstrap<br></br>API: Openweathermap</h6>
 
 
 
@@ -635,7 +635,7 @@ export default function Portfolio() {
           {isVisible11 && <div className="project-summary">A fitness application allowing users to make an account and create a weekly workout routine that tracks their physical activities and time spent exercising.</div>}
 
           {/* ---------------------------------------------------------- */}
-          <h6 className="description-and-tech">🛠 HTML | CSS | JS | Chart.js<br></br>Bootstrap | MySQL | Express |HB.js</h6>
+          <h6 className="description-and-tech">🛠 HTML | CSS | JS | Chart.js<br></br>Bootstrap | MySQL | Express</h6>
 
           <a
             href="https://protected-woodland-15218.herokuapp.com/"
