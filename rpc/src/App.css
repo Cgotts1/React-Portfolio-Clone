@@ -173,6 +173,7 @@ ul {
   margin-top: 10px;
   height: 600px;
   width: 300px;
+  opacity: 1;
 }
 
 .csun-logo,
@@ -392,6 +393,9 @@ path {
   }
 }
 
+/* Porfolio Page */
+
+
 .recent-work-container {
   display: flex;
   justify-content: center;
@@ -401,9 +405,6 @@ path {
   font-weight: 100;
 }
 
-/* .recent-work-container h1{
-  
-} */
 
 .work {
   margin: 10px;
@@ -517,7 +518,6 @@ path {
   font-family: "Oswald", sans-serif;
   font-weight: 900;
   font-size: 17px;
-  /* cursor: pointer; */
 }
 
 .overlay-logo {
@@ -542,21 +542,10 @@ path {
   border-bottom-right-radius: 17px;
   border-bottom-left-radius: 17px;
   width: 262px;
-}
-
-.description-and-tech {
-  /* opacity: 0; */
   pointer-events: none;
-  /* z-index: 0; */
-  /* font-family: "Cinzel", serif; */
-  /* font-family: "Oswald", sans-serif; */
-  /* font-family: 'Babylonica', cursive; */
   font-family: serif;
   font-size: 16px;
 }
-
-
-
 
 .slide-down {
   position: absolute;
@@ -584,11 +573,37 @@ path {
   transition: 5s;
 }
 
+.project-summary {
+  position: absolute;
+  z-index: 3;
+  margin-top: 140px;
+  margin-left: 10px;
+  padding: 2px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 265px;
+  border: solid black;
+  border-left: none;
+  border-right: none;
+  pointer-events: none;
+  opacity: 0;
+  font-weight: 700;
+  font-family: initial;
+  animation-name: fadeIn;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+}
 
+/* @keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.95;
+  }
+} */
 
-
-
-
+/* Experimental fadeIn and fadeOut */
 
 .project-summary {
   position: absolute;
@@ -599,20 +614,45 @@ path {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   width: 265px;
-  transition: 200ms;
-  /* border-bottom-right-radius: 17px; */
   border: solid black;
   border-left: none;
   border-right: none;
   pointer-events: none;
-  opacity: 0.95;
-  /* box-shadow: 6px 5px 5px rgb(34, 33, 33); */
-  /* box-shadow: 6px 5px 5px rgb(222, 222, 222); */
-  /* font-family: "Cinzel", serif; */
-  /* font-family: "Oswald", sans-serif; */
+  opacity: 0;
   font-weight: 700;
-  /* font-family: 'Babylonica', cursive; */
-  font-family:initial;
+  font-family: initial;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-duration: 800ms;
+  /* animation-delay: 0.5s; */
+  animation-fill-mode: forwards;
+}
+
+.fadeOut {
+  animation-name: fadeOut;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0.95;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 .overlay-logo:active {

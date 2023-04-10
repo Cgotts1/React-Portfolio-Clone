@@ -71,7 +71,7 @@ export default function Contact() {
 
   return (
 
-    <div class="contact-container" >
+    <div class="contact-container fadeIn" >
         <div className="contact-me-container">
         <h1>Contact Me</h1>
         </div>

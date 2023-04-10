@@ -15,7 +15,7 @@ const styles = {
 
 export default function About() {
   return (
-    <div className="aboutContent">
+    <div className="aboutContent fadeIn">
       <div className="first-section">
 
         

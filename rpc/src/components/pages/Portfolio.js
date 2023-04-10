@@ -1,5 +1,8 @@
 import React from "react";
 import image13 from "./image13.png";
+import image14 from "./image14.png";
+import image15 from "./image15.png";
+import image16 from "./image16.png";
 import { useState } from 'react';
 
 
@@ -78,7 +81,7 @@ export default function Portfolio() {
   };
 
   return (
-    <div>
+    <div className="portfolio-container fadeIn">
       <div className="recent-work-container">
         <h1>Recent Work</h1>
       </div>
@@ -89,7 +92,7 @@ export default function Portfolio() {
             Film Finder
           </p>
 
-          <a href="https://github.com/Cgotts1/API-Project" target="_blank">
+          <a href="https://github.com/Cgotts1/API-Project" target="_blank" rel="noreferrer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="100"
@@ -132,12 +135,12 @@ export default function Portfolio() {
             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
           </svg>
 
-          {isVisible1 && <div className="project-summary">A movie search web application that utilizes two APIs to render a movie's information and its respective poster.</div>}
+          {isVisible1 && <div className="project-summary fadeIn">A movie search web application that utilizes two APIs and local storage to render a movie's information and its respective movie poster.</div>}
           {/* <div className={`slide-down ${isVisible1 ? "show" : {isVisible1}}`}>A movie search web application that utilizes two APIs to render a movie's information and its respective poster. </div> */}
           {/* ---------------------------------------------------------- */}
           <h6 className="description-and-tech">🛠 HTML | CSS | JS <br></br>Bootstrap | APIs: OMDB & TMDB</h6>
 
-          <a href="https://cgotts1.github.io/Film-Finder/" target="_blank">
+          <a href="https://cgotts1.github.io/Film-Finder/" target="_blank" rel="noreferrer">
             <img
               src="https://cgotts1.github.io/V4-Portfolio/images/film-finder.jpg"
               alt=" Film Finder"
@@ -153,7 +156,7 @@ export default function Portfolio() {
             Quote Generator
           </p>
 
-          <a href="https://github.com/Cgotts1/Quote-Generator" target="_blank">
+          <a href="https://github.com/Cgotts1/Quote-Generator" target="_blank" >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="100"
@@ -285,10 +288,10 @@ export default function Portfolio() {
             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
           </svg> 
 
-          {isVisible4 && <div className="project-summary">A simple calendar application that allows a user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.</div>}
+          {isVisible4 && <div className="project-summary">A simple calendar application that allows a user to save events for each hour of the day. Each time block will default to a certain color depending on whether the time is past, present, or future.</div>}
 
           {/* ---------------------------------------------------------- */}
-          <h6 className="description-and-tech">🛠 HTML | CSS | JS <br></br>Bootstrap | Moment.js</h6>
+          <h6 className="description-and-tech">🛠 HTML | CSS | JS <br></br>Bootstrap | Moment.js | jquery</h6>
 
           <a
             href="https://cgotts1.github.io/Work-Day-Scheduler/"
@@ -541,7 +544,7 @@ export default function Portfolio() {
             target="_blank"
           >
             <img
-              src="https://github.com/Cgotts1/readme-generator/raw/main/image/nodequestions.png"
+              src={image14}
               alt=" Readme-Generator"
               id="full-stack-work"
               className="work"
@@ -593,7 +596,7 @@ export default function Portfolio() {
             target="_blank"
           >
             <img
-              src="https://github.com/Cgotts1/Team-Profile-Generator/raw/main/image/image1.png"
+              src={image15}
               alt=" Team-Profile-Generator"
               id="full-stack-work"
               className="work"
@@ -642,7 +645,7 @@ export default function Portfolio() {
             target="_blank"
           >
             <img
-              src="https://cgotts1.github.io/V4-Portfolio/images/fitness-planner.png"
+              src={image16}
               alt="Fitness-Planner"
               id="full-stack-work"
               className="work"
