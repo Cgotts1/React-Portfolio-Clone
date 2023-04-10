@@ -8,7 +8,7 @@ N/A
 This single-page application was made using React.js. Packages such as bootstrap and email.js were brought in for some styling and to provide email functionality. Regex was used to test for email verification and depending on whether the desired information has been filled out, the user will receive feed back on whether there form was submitted. The download attribute was implemented to allow users to download the Curriculum Vitae document. 
 
 
-Link to deployed application: https://cgotts1.github.io/React-Portfolio/
+Link to deployed application: https://cgotts1.github.io/React-Portfolio-Clone/
 
 ![React Portfolio](./portfolio-picture.png)
 
