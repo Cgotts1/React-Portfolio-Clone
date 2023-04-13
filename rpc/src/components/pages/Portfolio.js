@@ -3,6 +3,7 @@ import image13 from "./image13.png";
 import image14 from "./image14.png";
 import image15 from "./image15.png";
 import image16 from "./image16.png";
+import image17 from "./image17.png";
 import { useState } from 'react';
 
 
@@ -441,7 +442,7 @@ export default function Portfolio() {
             <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
           </svg> 
 
-          {isVisible7 && <div className="project-summary">This JavaScript application comprises of 100 squares that are designed to change their color randomly when a specific square is clicked.</div>}
+          {isVisible7 && <div className="project-summary">This JavaScript application comprises of 100 squares that are designed to change their color randomly when a hovered over or if a specific square is clicked.</div>}
 
 
           {/* ---------------------------------------------------------- */}
@@ -449,7 +450,7 @@ export default function Portfolio() {
 
           <a href="https://cgotts1.github.io/Color-Changer/" target="_blank">
             <img
-              src="https://cgotts1.github.io/V4-Portfolio/images/color-changer.jpg"
+              src={image17}
               alt=" Color-Changer"
               id="full-stack-work"
               className="work"
