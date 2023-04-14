@@ -611,7 +611,7 @@ export default function Portfolio() {
             Fitness Planner
           </p>
 
-          <a href="https://github.com/Ryan-M-Taylor/Gamer-Match" target="_blank">
+          <a href="https://github.com/Ryan-M-Taylor/Fitness-Plan" target="_blank">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="100"
