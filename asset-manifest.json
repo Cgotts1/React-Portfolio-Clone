@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/React-Portfolio-Clone/static/css/main.6513d6c2.css",
-    "main.js": "/React-Portfolio-Clone/static/js/main.880ee608.js",
+    "main.js": "/React-Portfolio-Clone/static/js/main.48489c45.js",
     "static/js/787.abc9a4ab.chunk.js": "/React-Portfolio-Clone/static/js/787.abc9a4ab.chunk.js",
     "static/media/videofile.mp4": "/React-Portfolio-Clone/static/media/videofile.c936289a7100b85c1a0d.mp4",
     "static/media/image16.png": "/React-Portfolio-Clone/static/media/image16.be0159dc707d1e6b450c.png",
+    "static/media/image18.png": "/React-Portfolio-Clone/static/media/image18.1480544aebff3910c8d6.png",
     "static/media/image7.png": "/React-Portfolio-Clone/static/media/image7.62555a0675959045f4e1.png",
     "static/media/newcgotts1logo.png": "/React-Portfolio-Clone/static/media/newcgotts1logo.c0512f1ec66b0023c9ea.png",
     "static/media/image17.png": "/React-Portfolio-Clone/static/media/image17.5b28e4d3c3beff441800.png",
@@ -14,11 +15,11 @@
     "static/media/image14.png": "/React-Portfolio-Clone/static/media/image14.14489fbbe97590b2e7ec.png",
     "index.html": "/React-Portfolio-Clone/index.html",
     "main.6513d6c2.css.map": "/React-Portfolio-Clone/static/css/main.6513d6c2.css.map",
-    "main.880ee608.js.map": "/React-Portfolio-Clone/static/js/main.880ee608.js.map",
+    "main.48489c45.js.map": "/React-Portfolio-Clone/static/js/main.48489c45.js.map",
     "787.abc9a4ab.chunk.js.map": "/React-Portfolio-Clone/static/js/787.abc9a4ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6513d6c2.css",
-    "static/js/main.880ee608.js"
+    "static/js/main.48489c45.js"
   ]
 }
