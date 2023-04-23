@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Portfolio-Clone/static/css/main.6513d6c2.css",
-    "main.js": "/React-Portfolio-Clone/static/js/main.48489c45.js",
+    "main.css": "/React-Portfolio-Clone/static/css/main.0960a3ea.css",
+    "main.js": "/React-Portfolio-Clone/static/js/main.343168cd.js",
     "static/js/787.abc9a4ab.chunk.js": "/React-Portfolio-Clone/static/js/787.abc9a4ab.chunk.js",
     "static/media/videofile.mp4": "/React-Portfolio-Clone/static/media/videofile.c936289a7100b85c1a0d.mp4",
     "static/media/image16.png": "/React-Portfolio-Clone/static/media/image16.be0159dc707d1e6b450c.png",
@@ -9,17 +9,17 @@
     "static/media/image7.png": "/React-Portfolio-Clone/static/media/image7.62555a0675959045f4e1.png",
     "static/media/newcgotts1logo.png": "/React-Portfolio-Clone/static/media/newcgotts1logo.c0512f1ec66b0023c9ea.png",
     "static/media/image17.png": "/React-Portfolio-Clone/static/media/image17.5b28e4d3c3beff441800.png",
-    "static/media/Tech-CV.pdf": "/React-Portfolio-Clone/static/media/Tech-CV.6db7b8584ba47e144617.pdf",
+    "static/media/Tech-CV.pdf": "/React-Portfolio-Clone/static/media/Tech-CV.9b33d53ab7e0a30a1c2c.pdf",
     "static/media/image13.png": "/React-Portfolio-Clone/static/media/image13.0c9dc86585dba1c55ddd.png",
     "static/media/image15.png": "/React-Portfolio-Clone/static/media/image15.48a0b3b7863d5593f38c.png",
     "static/media/image14.png": "/React-Portfolio-Clone/static/media/image14.14489fbbe97590b2e7ec.png",
     "index.html": "/React-Portfolio-Clone/index.html",
-    "main.6513d6c2.css.map": "/React-Portfolio-Clone/static/css/main.6513d6c2.css.map",
-    "main.48489c45.js.map": "/React-Portfolio-Clone/static/js/main.48489c45.js.map",
+    "main.0960a3ea.css.map": "/React-Portfolio-Clone/static/css/main.0960a3ea.css.map",
+    "main.343168cd.js.map": "/React-Portfolio-Clone/static/js/main.343168cd.js.map",
     "787.abc9a4ab.chunk.js.map": "/React-Portfolio-Clone/static/js/787.abc9a4ab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6513d6c2.css",
-    "static/js/main.48489c45.js"
+    "static/css/main.0960a3ea.css",
+    "static/js/main.343168cd.js"
   ]
 }
