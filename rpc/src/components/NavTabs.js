@@ -1,5 +1,5 @@
 import React from 'react';
-import cgotts1logo from "./pages/newcgotts1logo.png"
+import cgotts1logo from "./../images/newcgotts1logo.png"
 
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object

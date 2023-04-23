@@ -77,7 +77,7 @@ export default function Contact() {
         </div>
 
         <div className="my-email-container">
-        <h2 className="my-email">My Email: <a class="email-link" href = "mailto: cobi.gottschalk@gmail.com">cobi.gottschalk@gmail.com</a></h2>
+        <h2 className="my-email">My Email: <a class="email-link" href = "mailto: gottschalk.cobi@gmail.com">gottschalk.cobi@gmail.com</a></h2>
         </div>
     <div className="contact-page">
       <div className="contact-form">

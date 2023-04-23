@@ -1,11 +1,14 @@
 import React from "react";
-import image13 from "./image13.png";
-import image14 from "./image14.png";
-import image15 from "./image15.png";
-import image16 from "./image16.png";
-import image17 from "./image17.png";
-import image18 from "./image18.png";
+import image13 from "../../images/image13.png";
+import image14 from "../../images/image14.png";
+import image15 from "../../images/image15.png";
+import image16 from "../../images/image16.png";
+import image17 from "../../images/image17.png";
+import image18 from "../../images/image18.png";
 import { useState } from 'react';
+// import { projects } from './r'
+import projectData from '../../projectData.js';
+
 
 
 export default function Portfolio() {
@@ -102,7 +105,7 @@ export default function Portfolio() {
 
           <a href="https://github.com/Cgotts1/API-Project" target="_blank" rel="noreferrer">
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns="http://www.w3O.org/2000/svg"
               width="100"
               height="100"
               fill="currentColor"

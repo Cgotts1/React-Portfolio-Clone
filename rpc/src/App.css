@@ -5,6 +5,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 
+
+
+h1, h2, h3{
+  font-family: fantasy;
+  letter-spacing: 1px;
+  font-family: 'Oswald','Courier New', Courier, monospace;
+}
+
+
+
+
 /* Cloud animation */
 .cloud1 {
   position: absolute;
