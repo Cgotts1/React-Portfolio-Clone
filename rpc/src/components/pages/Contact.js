@@ -70,49 +70,53 @@ export default function Contact() {
   }
 
   return (
-
-    <div class="contact-container fadeIn" >
-        <div className="contact-me-container">
+    <div class="contact-container fadeIn">
+      <div className="contact-me-container">
         <h1>Contact Me</h1>
-        </div>
-
-        <div className="my-email-container">
-        <h2 className="my-email">My Email: <a class="email-link" href = "mailto: gottschalk.cobi@gmail.com">gottschalk.cobi@gmail.com</a></h2>
-        </div>
-    <div className="contact-page">
-      <div className="contact-form">
-        <Form ref={form} onSubmit={(event) => stopFOUC(event)}>
-          <Form.Group className="mb-3" >
-            <Form.Label>Name</Form.Label>
-            <Form.Control
-              type="text"
-              placeholder="John Smith"
-              name="from_name"
-              id="from_name"
-            />
-            <br></br>
-            <Form.Label>Email address</Form.Label>
-            <Form.Control
-              id="email"
-              type="email"
-              placeholder="name@example.com"
-              pattern="[A-Za-z0-9\.]+@[A-Za-z0-9\.]+\.[A-Za-z0-9\.]{1,10}"
-              name="email"
-            />
-          </Form.Group>
-          <Form.Group className="mb-3" >
-            <Form.Label>Message</Form.Label>
-            <Form.Control name="message" as="textarea" rows={5} />
-          </Form.Group>
-          <Button
-            className="submit-btn"
-            as="input"
-            type="submit"
-            value="Send"
-          />
-        </Form>
       </div>
-    </div>
+
+      <div className="my-email-container">
+        <h2 className="my-email">
+          My Email:{" "}
+          <a class="email-link" href="mailto: gottschalk.cobi@gmail.com">
+            gottschalk.cobi@gmail.com
+          </a>
+        </h2>
+      </div>
+
+
+      <div className="contact-page">
+          <Form ref={form} onSubmit={(event) => stopFOUC(event)}>
+            <Form.Group className="mb-3">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="John Smith"
+                name="from_name"
+                id="from_name"
+              />
+              <br></br>
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                id="email"
+                type="email"
+                placeholder="name@example.com"
+                pattern="[A-Za-z0-9\.]+@[A-Za-z0-9\.]+\.[A-Za-z0-9\.]{1,10}"
+                name="email"
+              />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label>Message</Form.Label>
+              <Form.Control name="message" as="textarea" rows={5} />
+            </Form.Group>
+            <Button
+              className="submit-btn"
+              as="input"
+              type="submit"
+              value="Send"
+            />
+          </Form>
+      </div>
     </div>
   );
 }
