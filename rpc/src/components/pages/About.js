@@ -77,8 +77,8 @@ export default function About() {
             as HTML, CSS, and JavaScript, and became proficient in using the
             MERN (MongoDB, Express, React, Node.js) stack, which is widely used
             in modern web development. Overall, my combination of skills in
-            forensic anthropology and software development make me a
-            well-rounded and versatile candidate for a variety of roles in both
+            anthropology and software development make me a well-rounded
+            and versatile candidate for a variety of roles in both
             fields.
           </p>
 
