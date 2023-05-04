@@ -6,6 +6,8 @@ import image15 from "../../images/image15.png";
 import image16 from "../../images/image16.png";
 import image17 from "../../images/image17.png";
 import image18 from "../../images/image18.png";
+import image19 from "../../images/image19.png";
+import video from "./videofile.mp4"
 import { useState } from 'react';
 // import { projects } from './r'
 import projectData from '../../projectData.js';
@@ -101,11 +103,25 @@ export default function Portfolio() {
     setIsVisible14(!isVisible14);
   };
 
+  const [isVisible15, setIsVisible15] = useState(false);
+
+  const toggleVisibility15 = () => {
+    setIsVisible15(!isVisible15);
+  };
+
   return (
     <div className="portfolio-container fadeIn">
       <div className="recent-work-container">
         <h1>Recent Work</h1>
       </div>
+
+      {/* <div className="other-video-container">
+        <p className="new-vid">New video</p>
+      <video className="other-video" loop autoPlay onError={(e) => console.log(e)}>
+        <source src={video} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>     
+      </div> */}
 
       <div id="full-stack-works" className="works">
         <article className="work1">
@@ -817,6 +833,55 @@ export default function Portfolio() {
               id="full-stack-work"
               className="work"
               title="Tech-Blog"
+            />
+          </a>
+        </article>
+
+        <article className="work2">
+          <p id="full-stack-overlay" className="overlay">
+            Spotify Assistant
+          </p>
+
+          <a
+            href="https://github.com/Cgotts1/Spotify-Assistant/tree/main/spotify-assistant"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100"
+              height="100"
+              fill="currentColor"
+              className="bi bi-github overlay overlay-logo"
+              viewBox="0 0 16 16"
+              href="https://github.com/Cgotts1"
+            >
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+            </svg>
+          </a>
+
+          {/* ---------------------------------------------------------- */}
+          <svg xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            className="bi bi-github overlay overlay-logo tech-used"
+            onClick={toggleVisibility15}            
+            viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z" />
+          </svg> 
+
+          {isVisible15 && <div className="project-summary">An application currently in development that will allow users search for music from their favorite artists and create playlists that will be saved to their Spotify account. </div>}
+
+          {/* ---------------------------------------------------------- */}
+          <h6 className="description-and-tech">🛠 HTML | CSS | JS | React.js <br></br>API: Spotify Web API</h6>
+
+          <a href="https://drive.google.com/file/d/1fKRlz5XUOwaJzY1eqUogHfDwFMKnGTex/view" target="_blank">
+            <img
+              src={image19}
+              alt="Spotify-Assistant"
+              id="full-stack-work"
+              className="work"
+              title="Spotify-Assistant"
             />
           </a>
         </article>

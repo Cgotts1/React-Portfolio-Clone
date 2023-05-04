@@ -363,13 +363,30 @@ path {
   font-weight: 100;
 }
 
+.other-video-container{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.other-video{
+  width: 40%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.new-vid{
+  position: absolute;
+  z-index: 5;
+  color:white;
+}
 
 .work {
   margin: 10px;
 }
 
 #full-stack-works {
-  background-color: rgba(40, 40, 40, 0.522);
+  /* background-color: rgba(40, 40, 40, 0.522); */
 
   display: flex;
   flex-wrap: wrap;
