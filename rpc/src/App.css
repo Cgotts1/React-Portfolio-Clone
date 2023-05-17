@@ -354,7 +354,7 @@ path {
 /*------------ Porfolio Page ------------------*/
 
 
-.recent-work-container {
+/* .recent-work-container {
   display: flex;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.787);
@@ -386,8 +386,6 @@ path {
 }
 
 #full-stack-works {
-  /* background-color: rgba(40, 40, 40, 0.522); */
-
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -548,16 +546,6 @@ path {
   animation-fill-mode: forwards;
 }
 
-/* @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 0.95;
-  }
-} */
-
-/* Experimental fadeIn and fadeOut */
 
 .project-summary {
   position: absolute;
@@ -613,7 +601,7 @@ path {
   transition: ease-in-out;
   height: 47px;
   width: 47px;
-}
+} */
 
 /*----------- Contact Page------------ */
 
@@ -841,3 +829,77 @@ h4 {
   height: 100px;;
 }
 
+
+
+/* New work system */
+
+
+.projects-container{
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* gap: 15px; */
+}
+
+.project-container{
+  width: 266px;
+  height: 460px;
+  border-radius: 10px;
+}
+
+.project-image{
+  width: 266px;
+  height: 400px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.project-name-overlay{
+  position: absolute;
+  color:white;
+  background-color: black;
+  text-align: center;
+  border-top-left-radius: 10px;
+}
+
+
+.project-github-overlay{
+  position: absolute;
+  z-index: 2;
+  margin-top: 40px;
+  margin-left: 0px;
+  border-top-left-radius: 0px;
+
+}
+
+.project-information-overlay{
+  position: absolute;
+  z-index: 2;
+  margin-top: 80px;
+  margin-left: 0px;
+  border-top-left-radius: 0px;
+}
+
+.project-summary-overlay{
+  position: absolute;
+  z-index: 2;
+  color: rgb(0, 0, 0);
+  margin-top: -270px;
+  padding: 10px;
+  /* word-wrap: break-word; */
+  background-color: white;
+  width: 266px;
+}
+
+.project-tech-overlay{
+  position: absolute;
+  width: 266px;
+  color: white;
+  background-color: black;
+  margin-top: -50px;
+  height: 50px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  text-align: center;
+}
