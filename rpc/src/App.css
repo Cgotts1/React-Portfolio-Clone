@@ -852,15 +852,12 @@ h4 {
   height: 400px;
   border: solid rgb(0, 0, 0);
   border-radius: 20px;
-  /* border-right: 55px; */
   margin: 10px;
   opacity: 0.9;
   transition: opacity 500ms, border 500ms, box-shadow 500ms;
   box-shadow: 8px 5px 5px rgb(2, 2, 2);
-
+  background-color: black;
 }
-
-
 
 .project-container:hover{
   opacity: 1;
@@ -875,12 +872,14 @@ h4 {
   height: 395px;
   border-radius: 15px;
   cursor: pointer;
+  background-color: black;
+  /* box-shadow: 5px 6px 6px rgb(0, 0, 0); */
 }
 
 .project-name-overlay{
   position: absolute;
+  background-color: rgba(0, 0, 0, 0.95);
   color:white;
-  background-color: black;
   text-align: center;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -888,9 +887,8 @@ h4 {
   width: 266.5px;
   font-size: 20px;
   padding: 5px;
-  opacity: 0.95;
+  /* filter: blur(5px); */
 }
-
 
 .project-github-overlay{
   position: absolute;
@@ -900,7 +898,6 @@ h4 {
   border-top-left-radius: 0px;
   border: solid black;
   border-left: none;
-
 }
 
 .project-information-overlay{
@@ -912,13 +909,12 @@ h4 {
   user-select: none;
   border: solid black;
   border-left: none;
-  
 }
 
 .project-summary-overlay{
   position: absolute;
   z-index: 2;
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 0.9);
   margin-top: -270px;
   padding: 10px;
   background-color: white;
@@ -930,20 +926,18 @@ h4 {
   animation-fill-mode: forwards;
   font-family: serif;
   text-align: center;
-  
 }
 
 .project-tech-overlay{
   position: absolute;
   width: 266.5px;
+  background-color: rgba(0, 0, 0, 0.95);
   color: white;
-  background-color: black;
   margin-top: -50px;
   height: 51px;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   text-align: center;
-  /* word-break: break-all; */
   padding: 0px 5px;
   font-family: serif;
   opacity: 0.95;
