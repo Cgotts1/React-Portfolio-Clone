@@ -112,13 +112,6 @@ export const projects = [
         projectImage: `${techBlog}`,
         projectSummary: "A Tech blog application that allows users to make an account and engage with other users through creating and commenting on posts.",
         projectTech: "🛠 HTML | CSS | JS | MySQL | Express Handlebars.js",
-        // projectTech: (
-        //   <div>
-        //     🛠 HTML | CSS | JS | Bootstrap
-        //     <br />
-        //     APIs: OMDB & TMDB
-        //   </div>
-        // ),
       },
       {
         projectName: 'Note Taker Responsive',
