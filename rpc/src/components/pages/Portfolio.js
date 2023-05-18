@@ -1,3 +1,56 @@
+import React, { useState } from 'react';
+import { FaGithub } from 'react-icons/fa';
+import { BsInfoCircleFill } from 'react-icons/bs';
+import { projects } from '../../projectData';
+
+const Portfolio = () => {
+  const [isVisible, setIsVisible] = useState(Array(projects.length).fill(false));
+
+  const toggleVisibility = (index) => {
+    const updatedVisibility = [...isVisible];
+    updatedVisibility[index] = !updatedVisibility[index];
+    setIsVisible(updatedVisibility);
+  };
+
+  return (
+    <div className="portfolio-container fadeIn">
+      <div className="recent-work-container">
+        <h1 className="contact-me-container recent-work">Recent Work</h1>
+      </div>
+
+      <div className="projects-container">
+        {projects.map((project, index) => (
+          <div className="project-container" key={index}>
+            <h3 className="project-name-overlay">{project.projectName}</h3>
+            <a href={project.projectGitHub} target="_blank">
+              <FaGithub className="project-github-overlay" size={44} color="black" />
+            </a>
+            <BsInfoCircleFill
+              onClick={() => toggleVisibility(index)} // Pass the index to the toggleVisibility function
+              className="project-information-overlay"
+              size={44}
+              color="blue"
+            />
+            <a href={project.projectSite} target="_blank">
+              <img className="project-image" src={project.projectImage} alt={project.projectName} />
+            </a>
+            {isVisible[index] && <div className="project-summary-overlay fade-in">{project.projectSummary}</div>}
+            <p className="project-tech-overlay">{project.projectTech}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Portfolio;
+
+
+
+
+
+
+
 // import React from "react";
 // import image2 from "../../images/image2.png";
 // import image13 from "../../images/image13.png";
@@ -895,56 +948,79 @@
 
 
 
-import React from 'react';
-import { BiSearch } from 'react-icons/bi';
-import { FaGithub } from 'react-icons/fa';
-import { BsInfoCircleFill } from 'react-icons/bs';
-import { projects } from '../../projectData';
+// import React, { useState } from 'react';
+// import { BiSearch } from 'react-icons/bi';
+// import { FaGithub } from 'react-icons/fa';
+// import { BsInfoCircleFill } from 'react-icons/bs';
+// import { projects } from '../../projectData';
 
-const Portfolio = () => {
-  return (
+// const Portfolio = () => {
+
+
+//   const [isVisible1, setIsVisible1] = useState(false);
+
+//   const toggleVisibility1 = () => {
+//     setIsVisible1(!isVisible1);
+//   };
+
+//   return (
     
-<div className="portfolio-container fadeIn">
-       <div className="recent-work-container">
-         <h1 className='contact-me-container'>Recent Work</h1>
-       </div>
+// <div className="portfolio-container fadeIn">
+//        <div className="recent-work-container">
+//          <h1 className='contact-me-container recent-work'>Recent Work</h1>
+//        </div>
 
 
 
 
-<div className='projects-container'>
-      {projects.map((project, index) => (
-        <div className='project-container' key={index}>
-          {/* <AlarmFill size={32} color="red" /> */}
-          
-          {/* <BiSearch className='project-information-overlay' size={24} color="red" /> */}
-          <h3 className='project-name-overlay'>{project.projectName}</h3>
-          <a href={project.projectGitHub} target='_blank'><FaGithub className='project-github-overlay' size={44} color="black" /></a>
-          <BsInfoCircleFill className='project-information-overlay' size={44} color="blue" />
-          <a href={project.projectSite} target='_blank'><img className="project-image" src={project.projectImage} alt={project.projectName} /></a>
+// <div className='projects-container'>
+//       {projects.map((project, index) => (
+//         <div className='project-container' key={index}>
+
+//           <h3 className='project-name-overlay'>{project.projectName}</h3>
+//           <a href={project.projectGitHub} target='_blank'><FaGithub className='project-github-overlay' size={44} color="black" /></a>
+//           <BsInfoCircleFill onClick={isVisible1} className='project-information-overlay' size={44} color="blue" />
+//           <a href={project.projectSite} target='_blank'><img className="project-image" src={project.projectImage} alt={project.projectName} /></a>
          
-          <p className='project-summary-overlay'>{project.projectSummary}</p>
-          <p className='project-tech-overlay'>{project.projectTech}</p>
+//           <p className='project-summary-overlay'>{project.projectSummary}</p>
+//           {isVisible1 && <div className="project-summary">An application currently in development that will allow users search for music from their favorite artists and create playlists that will be saved to their Spotify account. </div>}
+//           <p className='project-tech-overlay'>{project.projectTech}</p>
           
-        </div>
-      ))}
+//         </div>
+//       ))}
 
-</div>
-    </div>
-
-
+// </div>
+//     </div>
 
 
+// );
+// };
+
+// export default Portfolio;
 
 
 
 
 
 
-);
-};
 
-export default Portfolio;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 {/* <article className="work2">
